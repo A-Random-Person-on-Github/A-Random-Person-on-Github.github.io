@@ -1,0 +1,414 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('img/kali.png')no-repeat center center/cover;
+    height: 100vh;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.491);
+    /* display: flex;
+    align-items: center;
+    gap: 8px; */
+    height: 4.5%;
+    width: 100vw;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 5px;
+    /* border: 0.7px solid red; */
+}
+.left-side img{
+    height: 70%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    cursor: pointer;
+}
+.left-side img:hover{
+    background-color: rgba(0, 0, 0, 0.61);
+}
+#i1{
+    height: 52%;
+    position: relative;
+    left: 6px;
+    /* border: 0.7px solid red; */
+}
+#i2{
+    height: 53%;
+    position: relative;
+    left: 8px;
+    /* border: 0.7px solid red; */
+}
+#i3{
+    height: 55%;
+    position: relative;
+    left: 9px;
+    
+}
+#i5{
+    position: relative;
+    left: 5px;
+
+}
+#start{
+    background-color: rgba(255, 255, 255, 0.804);
+    border-radius:3px ;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.635);
+    width: 1.8%;
+    margin-right: 9px;
+    margin-left: 3px;
+} 
+.icon{
+    color: white;
+    position: relative;
+    transform: rotate(180deg);
+    
+}
+.icon:hover{
+    background-color: rgba(0, 0, 0, 0.331);
+    cursor: pointer;
+}
+.dived{
+    width: 1.5px;
+    height: 66%;
+    background-color: rgb(202, 196, 196);
+}
+.num{
+    color: white;
+    font-size: 0.7rem;
+}
+.num:hover{
+    background-color: rgba(0, 0, 0, 0.331);
+    cursor: pointer;
+}
+.aril{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right-side{
+    position: absolute;
+    right: 2px;
+    top: 0px;
+    height: 4.3%;
+    display: flex;
+    align-items: center;
+    gap: 7.5px;
+    /* border: 0.7px solid red; */
+
+}
+.right-side img{
+    height: 50%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    cursor: pointer;
+    /* border: 0.7px solid red; */
+}
+.right-side .d{
+    width: 1.5px;
+    height: 66%;
+    background-color: rgba(255, 255, 255, 0.76);
+}
+.time{
+    color: rgba(255, 255, 255, 0.692);
+    font-size: 0.8rem;
+    margin-right:4.5px ;
+}
+
+.desktop{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    position: relative;
+    top: 1.8rem;
+    left: 2rem;
+    width: 5.5%;
+    align-items: center;
+    /* border: 0.7px solid red; */
+   
+}
+
+.trash img{
+    height: 46%;
+    /* border: 0.7px solid red; */
+  
+    
+
+}
+.disk img{
+    height: 43%;
+    margin-left:23% ;
+    /* border: 0.7px solid red; */
+    
+
+}
+.file img{
+    height: 45.6%;
+    /* border: 0.7px solid red; */
+
+}
+.bg img{
+    height: 37%;
+    width: 50%;
+    margin-left: 24%;
+    /* border: 0.7px solid red; */
+  
+}
+
+.game img{
+    height: 37%;
+    width: 50%;
+    margin-left: 24%;
+ 
+    /* border: 0.7px solid red; */
+  
+}
+.trash img:hover{
+    background-color: rgba(255, 255, 255, 0.075);
+
+}
+.disk img:hover{
+    background-color: rgba(255, 255, 255, 0.075);
+
+}
+.file img:hover{
+    background-color: rgba(255, 255, 255, 0.075);
+
+}
+.bg img:hover{
+    background-color: rgba(255, 255, 255, 0.075);
+
+}
+.game img:hover{
+    background-color: rgba(255, 255, 255, 0.075);
+
+}
+.trash p{
+
+    font-size: 0.7rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.482);
+    margin-top: 1px;
+    
+   
+}
+.disk p{
+    font-size: 0.7rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.482);
+    margin-top: 1px;
+  
+}
+.file p{
+    font-size: 0.7rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.482);
+    margin-top: 1px;
+    margin-left: 3.5px;
+   
+}
+.bg p{
+    font-size: 0.7rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.482);
+    margin-top: 3px;
+    margin-left: 3.5px;
+   
+}
+.game p{
+    font-size: 0.7rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.482);
+    margin-top: 3px;
+    margin-left: 17.5px;
+   
+}
+.bgi p{
+    color:rgb(228, 225, 225);
+    font-size: 0.8em;
+    line-height: 0.7rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0px;
+    
+}
+.bgi p:hover{
+    /* background-color: rgba(0, 0, 0, 0.199); */
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px rgba(227, 218, 218, 0.799);
+    text-decoration: underline;
+}
+.bgi{
+    
+    background-color: rgba(30, 27, 27, 0.685);
+    width: 10%;
+    height: 22%;
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    
+    position: relative;
+    left: 37%;
+    bottom: 25%;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.447);
+    border-left:4.5px solid rgba(48, 44, 44, 0.886)  ;
+    border-right:4.5px solid rgba(48, 44, 44, 0.886) ;
+    border-bottom:4.5px solid rgba(48, 44, 44, 0.886)  ;
+    border-top: 20px solid rgba(48, 44, 44, 0.884) ;
+    animation: win 0.1s linear ;
+    
+}
+@keyframes win {
+    from{bottom: 0px;}
+    to{bottom: 25%;}
+    
+}
+.open{
+    display: flex;
+}
+.bgi .close{
+    font-size: 0.5rem;
+    color: rgb(45, 43, 43);
+    background-color: #2573f1;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    position: relative;
+    right: -52px;
+    top: -16.5px;
+}
+.bgi .close:hover{
+    cursor: pointer;
+    background-color: #0660f1;
+    color: white;
+}
+.open-app{
+    display: block;
+}
+#home{
+    width: 32%;
+    position: absolute;
+    left: 30.1%;
+    bottom: 31%;
+    box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.525);
+    transition: all 0.2s ease;
+    animation: v 0.1s linear;
+    animation: w 0.1s linear;
+
+    
+}
+
+.home{
+    display: none;
+}
+.n{
+    display: none;
+}
+#x{
+    color:white;
+    position: absolute;
+    bottom: 69.4%;
+    left: 30.7%;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+    z-index: 7;
+    animation: v 0.1s linear;
+}
+#x:hover{
+    color:black;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+@keyframes v {
+    from{opacity: 0;}
+    to{opacity: 1;}
+    
+}
+@keyframes w {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 32%;
+    }
+    
+}
+#tir{
+    width: 90px;
+    position:absolute ;
+    top: 4.5%;
+    left: 12.7%;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.484);
+    animation: tir 0.1s linear;
+    /* border: 0.7px solid red; */
+}
+#tir2{
+    width: 132px;
+    position:absolute ;
+    top: 4.5%;
+    left: 86.3%;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.484);
+    animation: tir 0.1s linear;
+}
+#tir3{
+    width: 145px;
+    position:absolute ;
+    top: 4.5%;
+    left: 86.2%;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.484);
+    animation: tir 0.1s linear;
+}
+@keyframes tir {
+    from{
+        opacity: 0;
+        visibility: hidden;
+    }
+    to{
+        opacity: 1;
+        visibility: visible;
+    }
+    
+}
+.slect-down{
+    display: none;
+}
+.slect-2{
+    display: none;
+}
+.slect-3{
+    display: none;
+}
+.open-slect{
+    display: flex;
+}
+
+.start-button-off{
+    display: none;
+}
+#start-button{
+    
+    position: absolute;
+    width: 17%;
+    top: 3.7%;
+    z-index: 9;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.491);
+}
+.start-button-open{
+    display: inline-block;
+}

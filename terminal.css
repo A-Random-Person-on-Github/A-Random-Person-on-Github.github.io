@@ -1,0 +1,118 @@
+.tirminal{
+    display: none;
+    flex-direction: column;
+    width: 420px;
+    height: 245px;
+    background-color:#242937e8;
+    border: 6px solid #232a37d9;
+    border-top: 38px solid #232a37d9;
+    position: absolute;
+    bottom: 38%;
+    left: 35%;
+    border-radius: 5.5px;
+    animation: t 0.1s linear;
+    box-shadow:0px 0px 5px 3.5px rgba(0, 0, 0, 0.468) ;
+    /* resize: both;
+    overflow: auto; */
+}
+@keyframes t {
+    from{
+        height: 50px;
+        opacity: 0.2;
+    }
+    to{
+        height: 245px;
+        opacity: 1;
+    }
+}
+.up-row{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5px;
+    position: relative;
+    top: -33px;
+
+} 
+.up-row #icon{
+    width: 12px;
+    height: 12px;
+    position: relative;
+    left:4px ;
+}
+.tirminal #user{
+    width: 49%;
+    position: relative;
+    top: -34px;
+}
+.tirminal input{
+    width: 47%;
+    position: relative;
+    top: -67px;
+    right: -210px;
+    outline: none;
+    background-color: #24293700;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    padding: 0px;
+    font-family:Helvetica, sans-serif;
+}
+.up-row .circle{
+    width: 10.3px;
+    height: 10.3px;
+    border: 0.7px solid rgb(43, 41, 41);
+    border-radius: 6px;
+    background-color: #3c4453;
+    position: relative;
+    right: -240px;
+    cursor: pointer;
+
+}
+.up-row .circle:hover{
+
+    background-color: #5e6b80;
+
+}
+.up-row p{
+    font-size: 0.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -10.5px;
+    left: 120px;
+    color: white;
+}
+.up-row .cancel{
+    width: 12px;
+    height: 12px;
+    
+    border-radius: 6px;
+    background-color: #0660f1;
+    color:rgb(43, 41, 41);
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: -240px;
+    cursor: pointer;
+}
+.up-row .cancel:hover{
+    background-color: #034fc9;
+    color:rgb(255, 252, 252);
+}
+.small-font{
+    font-size: 0.9rem;
+    line-height: 2rem;
+}
+
+.result-out{
+    width: 100%;
+    /* background-color: #fff; */
+    margin-top: -11%;
+    padding-left: 8px;
+    color: rgb(247, 253, 245);
+    font-family:  Arial, sans-serif;
+    /* overflow-y: scroll; */
+    height: 100%;
+}
